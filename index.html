@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>upsc online exam</title>
+  </head>
+  <body>
+    <h2 id="questionEle"></h2>
+    <ul style="list-style-type: lower-alpha">
+      <div class="option-container">
+        <li id="option1"></li>
+        <input type="radio" name="option" id="a" value="a" checked />
+      </div>
+      <div class="option-container">
+        <li id="option2"></li>
+        <input type="radio" name="option" id="b" value="b" />
+      </div>
+      <div class="option-container">
+        <li id="option3"></li>
+        <input type="radio" name="option" id="c" value="c" />
+      </div>
+      <div class="option-container">
+        <li id="option4"></li>
+        <input type="radio" name="option" id="d" value="d" />
+      </div>
+    </ul>
+    <button onclick="submitFn()">Submit</button>
+    <script src="./script.js"></script>
+  </body>
+</html>

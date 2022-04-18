@@ -1,0 +1,6 @@
+.option-container {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: centre;
+  }
